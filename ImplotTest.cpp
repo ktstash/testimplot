@@ -39,7 +39,7 @@ static void glfw_error_callback(int error, const char* description)
 }
 
 void Demo_BarPlots() {
-    std::deque<uint64_t> times1 = { 0,5,11,18,26,35,45,56,68,81 };
+    std::deque<uint64_t> times1 = { 0,4,11,18,26,35,45,56,68,81 };
     std::deque<bool> data1 = { true,false,true,false,true,false,true,false,true,false };
 
     ImVec4 color_true = ImVec4(0, 0, 1, 1);
