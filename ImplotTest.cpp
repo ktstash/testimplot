@@ -44,7 +44,7 @@ void Demo_BarPlots() {
 
     ImVec4 color_true = ImVec4(0, 0, 1, 1);
     ImVec4 color_false = ImVec4(1, 0, 0, 1);
-    /*
+    
     std::vector<uint64_t> x_data;
     x_data.reserve(times1.size());
     std::vector<uint64_t> y_data;
@@ -65,7 +65,7 @@ void Demo_BarPlots() {
         ImPlot::PlotBars("State Bars",y_data.data(), y_data.size(), 0.4, 1, ImPlotBarsFlags_Horizontal);
         //ImPlot::PlotBars("Horizontal2", times2, data2, 10, 0.4, 1, ImPlotBarsFlags_Horizontal);
         ImPlot::EndPlot();
-    }*/
+    }
 
     if (ImPlot::BeginPlot("Bar Plot"))
     {
